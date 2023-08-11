@@ -31,6 +31,7 @@ To replicate our results and utilize our protein graph embedding framework, foll
 ## Results and Discussion
 
 We conducted extensive experiments to evaluate the effectiveness of our protein graph embedding framework. Our embeddings achieved remarkable results in various tasks, including protein structure classification, outperforming state-of-the-art methods. Specifically, compared to existing work, our approach showed an average F1-Score improvement of 26% on out-of-distribution (OOD) samples and 32% on samples from the same distribution as the training data. These results highlight the power of our embeddings in capturing structural similarities and their potential impact on areas such as drug prioritization, drug re-purposing, and disease sub-type analysis.
-Conclusion
+
+## Conclusion
 
 In this paper, we presented a novel framework for protein graph embedding in geometric vector spaces. Our approach leverages Graph Neural Networks (GNNs) and Large Language Models (LLMs) to generate structure- and sequence-aware protein representations. By embedding protein graphs, we enable efficient and accurate protein structure comparison, overcoming the limitations of existing methods. The effectiveness of our embeddings was demonstrated through experiments, showcasing their superior performance in protein structure classification. We believe our approach has significant potential in advancing large-scale biological research and finding applications in various domains, including bioinformatics and drug discovery.
